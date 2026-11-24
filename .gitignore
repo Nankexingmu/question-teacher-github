@@ -1,0 +1,15 @@
+# Runtime library contains user-supplied textbooks, exams and derived records.
+/library/
+/work/
+
+# Python and editor artifacts.
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+
+# Local environment and credentials.
+.env
+.env.*
+!.env.example
